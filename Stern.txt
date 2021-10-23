@@ -1,0 +1,26 @@
+/**
+* This is the JavaFX code for a star im am new to javaFx and want to learn more about
+*/
+
+	Path stern = new Path();
+        MoveTo aufPosition = new MoveTo(140, 270);
+        LineTo ersteLinie = new LineTo(120, 300);
+        LineTo zweiteLinie = new LineTo(100, 305);
+        LineTo dritteLinie = new LineTo(120, 335);
+        LineTo vierteLinie = new LineTo(105, 360);
+        LineTo fuenfteLinie = new LineTo(140, 348);
+        LineTo sechsteLinie = new LineTo(175, 360);
+        LineTo siebteLinie = new LineTo(160, 335);
+        LineTo achteLinie = new LineTo(180, 305);
+        LineTo neunteLinie = new LineTo(155, 300);
+        LineTo zehnteLinie = new LineTo(140, 270);
+        stern.setFill(Color.GOLD);
+        stern.setStroke(Color.DARKGOLDENROD);
+        stern.getElements().add(aufPosition);
+        stern.getElements().addAll(ersteLinie, zweiteLinie, dritteLinie,
+                vierteLinie, fuenfteLinie, sechsteLinie, siebteLinie,
+                achteLinie, neunteLinie, zehnteLinie);
+
+/**
+* The Objects named German feel free to rename
+*/
